@@ -1,0 +1,28 @@
+# Secrets — never commit real credentials
+.env
+
+# Logs and generated runtime state (includes trade history, position state)
+logs/
+
+# Backtest output (regenerate locally rather than commit)
+backtest_report.txt
+backtest_report_equity.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS/editor cruft
+.DS_Store
+.vscode/
+.idea/
+
+# Test scratch space
+tests/.tmp_test_run/
